@@ -7,6 +7,7 @@ import { SharedModule } from '../0100 shared/shared.module';
 
 //App components
 import { AuthorizationComponent } from './components/authorization/authorization.component';
+import { CallbackComponent } from './components/callback/callback.component';
 
 //App reducer
 import { reducers } from './store/identity.reducer';
@@ -21,9 +22,11 @@ import { AuthService } from './services/auth.service';
 
 
 
+
 @NgModule({
   declarations: [
-    AuthorizationComponent
+    AuthorizationComponent,
+    CallbackComponent
   ],
   imports: [
     SharedModule,
