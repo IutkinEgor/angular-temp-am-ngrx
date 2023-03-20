@@ -1,4 +1,5 @@
-export interface UserInterface {
+export interface UserProfileInterface {
   givenName: string;
   familyName: string;
+  email: string;
 }
