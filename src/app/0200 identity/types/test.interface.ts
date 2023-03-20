@@ -1,3 +1,4 @@
-export interface TestInterface {
-  name: string;
+export interface UserInterface {
+  givenName: string;
+  familyName: string;
 }
